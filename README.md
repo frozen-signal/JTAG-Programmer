@@ -11,7 +11,7 @@ Once assembled, a one-time setup need to be done:
 1. Connect the JTAG-Programmer to your PC with a USB cable.
 1. Do a scan: DEVICE > Scan and parse.<br /><a align="center"><img src="/resources/ScanParse.png" style="width: 480px"/></a>
 1. Go to FILE > Open Template and select "JTAG_PROGRAMMER.xml".<br /><a align="center"><img src="/resources/OpenTemplate.png" style="width: 480px"/></a>
-1. Go to DEVICE > Program, and click Program.<br /><a align="center"><img src="/resources/FTProgProgram.png" style="width: 480px"/></a>
+1. Go to DEVICE > Program, and click "Erase". Once completed, click "Program".<br /><a align="center"><img src="/resources/FTProgProgram.png" style="width: 480px"/></a>
 1. Make sure the JTAG-Programmer has been correctly programmed by quitting FT_Prog and re-opening it, then doing a scan again. Check that the template has been applied to the JTAG-Programmer ("Product Desc" should be "JTAG Program").
 
 ## Example of Programming a MACHXO2 FPGA with Lattice Diamond Programmer
