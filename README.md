@@ -7,7 +7,6 @@ A Kicad project for a JTAG Programmer. Compatible with Lattice Diamond Programme
 ## One-time setup
 
 Once assembled, a one-time setup need to be done:
-(TODO: Add images)
 1. Download and install [FT_Prog from FTDI](https://ftdichip.com/utilities/#ft_prog)
 1. Connect the JTAG-Programmer to your PC with a USB cable.
 1. Do a scan: DEVICE > Scan and parse.<br /><a align="center"><img src="/resources/ScanParse.png" style="width: 480px"/></a>
